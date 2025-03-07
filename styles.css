@@ -168,4 +168,8 @@ code {
         border-right: none;
         text-align: center;
     }
+
+    pre {
+        font-size: 0.8rem;
+    }
 }
