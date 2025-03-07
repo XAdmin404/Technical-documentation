@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 340vh;
+}
+
+#navbar {
+    width: 22%;
+    min-width: 260px;
+    padding: 20px;
+}
+
+#navbar h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    padding: 12px 0;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+#main-doc {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.main-section {
+    max-width: 850px;
+    margin-bottom: 40px;
+}
+
+#section-title {
+    font-size: 2.2rem;
+}
+
+.section-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.previous, .next {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.previous:hover, .next:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+
+.info {
+    padding-top: 15px;
+}
+
+.info ul {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f8f8f2;
+}
+
+.info span {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #b0b0b0;
+}
+
+#what-you-should-already-know {
+    position: relative;
+    top: 10px;
+}
+#other {
+    position: relative;
+    top: 25px;
+}
+#hello-world {
+    position: relative;
+    top: 35px;
+}
+#variables {
+    position: relative;
+    top: 45px;
+}
+#data-types {
+    position: relative;
+    top: 55px;
+}
+#if-statement {
+    position: relative;
+    top: 65px;
+}
+#while-statement {
+    position: relative;
+    top: 75px;
+}
+#for-loops {
+    position: relative;
+    top: 85px;
+}
+#functions {
+    position: relative;
+    top: 95px;
+}
+#conclusion {
+    position: relative;
+    top: 105px;
+}
+
+.code {
+    padding: 10px;
+}
+
+.footer {
+    height: 50px;
+    position: relative;
+    top: 125px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #navbar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        text-align: center;
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <h1>Python Documentation</h1>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#what-you-should-already-know">What You Should Already Know</a></li>
+                <li><a href="#other">Python and Other Languages</a></li>
+                <li><a href="#hello-world">Hello World</a></li>
+                <li><a href="#variables">Variables</a></li>
+                <li><a href="#data-types">Data Types</a></li>
+                <li><a href="#if-statement">If Statement</a></li>
+                <li><a href="#while-statement">While Loop</a></li>
+                <li><a href="#foor-loops">For Loop</a></li>
+                <li><a href="#functions">Functions</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <h1 id="section-title">Introduction</h1>
+                <div class="info">
+                    <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Due to its vast ecosystem of libraries, Python is widely used in web development, data science, automation, and more.</p>
+                    </div>
+            </section>
+            <section class="main-section" id="what-you-should-already-know">
+                <h1 id="section-title">What You Should Already Know</h1>
+                <div class="info">
+                    <p>To follow this documentation, you should have a basic understanding of:</p>
+                    <ul>
+                        <li>General programming concepts (variables, loops, functions)</li>
+                        <li>How to use a text editor or an IDE</li>
+                        <li>Basic command-line operations</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="main-section" id="other">
+                    <h1 id="section-title">Python and Other Languages</h1>
+                    <div class="info">
+                        <p>Python is dynamically typed, meaning you don't have to declare variable types explicitly. Unlike Java or C++, Python uses indentation instead of curly braces for code blocks, making it more readable and concise.</p>
+                        </div>
+                    </section>
+                    <section class="main-section" id="hello-world">
+                        <h1 id="section-title">Hello World</h1>
+                        <div class="info">
+                            <p>The classic first program in Python:</p>
+                            <div class="code">
+                            <pre><code>
+print("Hello, World!")
+                                </code></pre>
+                                </div>
+                                <p>This prints "Hello, World!" to the console.</p>
+                            </div>
+                        </section>
+                        <section class="main-section" id="variables">
+                            <h1 id="section-title">Variables</h1>
+                            <div class="info">
+                                <p>Variables in Python do not require explicit type declaration. You can assign values directly:</p>
+                                <div class="code">
+                                <pre><code>
+name = "Alice"
+age = 25
+print(name, age)
+                                    </code></pre>
+                                    </div>
+                                    <div class="code">
+                                    <p>Output</p>
+                                    <div class="code">
+                                    <pre><code>
+Alice 25
+                                        </code></pre>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="main-section" id="data-types">
+                                <h1 id="section-title">Data Types</h1>
+                                <div class="info">
+                                    <p>Python has several built-in data types, including:</p>
+                                    <ul>
+                                        <li><span>int</span> (e.g., <span>10</span>)</li>
+                                        <li><span>float</span> (e.g., <span>3.14</span>)</li>
+                                        <li><span>str</span> (e.g., <span>'hello'</span>)</li>
+                                        <li><span>bool</span> (e.g., <span>True</span>, <span>False</span>)</li>
+                                        </ul>
+                                    </div>
+                                </section>
+
+                                <section class="main-section" id="if-statement">
+                                    <h1 id="section-title">If Statement</h1>
+                                    <div class="info">
+                                        <p>Conditional statements in Python use indentation for defining blocks:</p>
+                                        <div class="code">
+                                        <pre><code>
+x = 10
+if x > 5:
+    print("x is greater than 5")
+                                            </code></pre>
+                                        </div>
+                                        </div>
+                                </section>
+                                <section class="main-section" id="while-statement">
+                                    <h1 id="section-title">While Loop</h1>
+                                    <div class="info">
+                                    <p>A while loop repeats a block of code while a condition remains true:</p>
+                                    <div class="code">
+                                    <pre><code>
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+                                        </code></pre>
+                                    </div>
+                                        </div>
+                                </section>
+                                <section class="main-section" id="for-loops">
+                                    <h1 id="section-title">For Loop</h1>
+                                    <div class="info">
+                                        <p>Used for iterating over sequences like lists or strings:</p>
+                                        <div class="code">
+                                        <pre><code>
+for i in range(5):
+    print(i)
+                                            </code></pre>
+                                        </div>
+                                        </div>
+                                </section>
+                                <section class="main-section" id="functions">
+                                    <h1 id="section-title">Functions</h1>
+                                    <div class="info">
+                                        <p>Functions in Python are defined using <span>def</span>:</p>
+                                        <div class="code">
+                                        <pre><code>
+def greet(name):
+    return f"Hello, {name}!"
+print(greet("Alice"))
+                                            </code></pre>
+                                        </div>
+                                        </div>
+                                </section>
+                                <section class="main-section" id="conclusion">
+                                    <h1 id="section-title">Conclusion</h1>
+                                    <div class="info">
+                                        <p class="end">Python is a versatile and beginner-friendly language. With its clean syntax and powerful libraries, it is an excellent choice for various programming tasks. Keep exploring and practicing!</p>
+                                        </div>
+                                </section>
+
+        </main>
+    </div>
+</body>
+</html>
